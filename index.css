@@ -1,0 +1,93 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    width: 400px;
+    height: 680px;
+    margin: 0 auto;
+    border: 1px solid #C6C6C6;
+    
+}
+
+p {
+    font-size: 13px;
+}
+
+/* Header Styles */
+
+header {
+    padding: 15px 15px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 127px;
+}
+
+.user-avatar {
+    width: 34px;
+    border-radius: 50px;
+}
+
+/* Author Styles */
+
+.author-details {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px 0 10px 15px;
+}
+
+
+.author-avatar-icon  {
+    width: 34px;
+    border-radius: 50px;
+}
+
+.author {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.location {
+    margin: 0;
+}
+
+/* Post Styles */
+
+.post-img {
+    width: 100%;
+}
+
+/* Interaction Styles */
+
+
+.interaction {
+    display: flex;
+    gap: 10px;
+    margin: 20px 15px;
+}
+
+.interaction img {
+    width: 24px;
+}
+
+/* Like Styles */
+
+.footer {
+    margin: 0 0 15px 15px;
+    font-weight: 700;
+}
+
+.footer span {
+    margin-left: 5px;
+    font-weight: 300;
+}
